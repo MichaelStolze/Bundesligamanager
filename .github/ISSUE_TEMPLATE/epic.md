@@ -1,20 +1,19 @@
+---
 name: Epic
-description: Eine übergeordnete Funktionseinheit
+about: Eine übergeordnete Funktionseinheit, bestehend aus mehreren User Stories
 title: "🧩 [EPIC] - "
 labels: ["type: epic"]
+assignees: []
+---
 
-body:
-- type: markdown
-  attributes:
-  value: |
-  **Beschreibe die Funktionseinheit, die mehrere User Stories umfasst.**
-- type: textarea
-  id: description
-  attributes:
-  label: Beschreibung
-  placeholder: Was soll das System insgesamt leisten?
-- type: textarea
-  id: stories
-  attributes:
-  label: Zugehörige User Stories
-  description: Verlinke untergeordnete Issues mit `#` (z. B. #12)
+## 🎯 Beschreibung
+
+Beschreibe hier die größere Funktionseinheit, die mehrere Stories umfasst.
+
+---
+
+## 🧷 Zugehörige User Stories
+
+- [ ] #...
+- [ ] #...
+- [ ] #...

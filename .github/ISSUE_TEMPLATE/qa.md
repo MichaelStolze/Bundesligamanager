@@ -1,24 +1,20 @@
-name: QA Review
-description: Überprüfung der Implementierung, Tests und Codequalität
+---
+name: QA – Codeprüfung
+about: Manuelle oder automatisierte Prüfung der Logik
 title: "🔍 [QA] - "
-labels: ["qa", "review", "type: verification"]
+labels: ["qa", "type: verification"]
+assignees: []
+---
 
-body:
-- type: textarea
-  id: review
-  attributes:
-  label: Was wurde überprüft?
-  placeholder: Code, Tests, Style, Edge Cases, Validierungen
-- type: textarea
-  id: findings
-  attributes:
-  label: Auffälligkeiten / Anmerkungen
-- type: checkboxes
-  id: checklist
-  attributes:
-  label: Review-Checkliste
-  options:
-  - label: Alle Tests grün
-  - label: Akzeptanzkriterien erfüllt
-  - label: Code verständlich & sauber
-  - label: Dokumentation vorhanden
+## 🔎 Geprüfte Bereiche
+
+Welche Komponenten oder Funktionen wurden getestet?
+
+---
+
+## ☑️ Review-Checkliste
+
+- [ ] Alle Tests grün
+- [ ] Code entspricht Konventionen
+- [ ] Akzeptanzkriterien erfüllt
+- [ ] Keine offensichtlichen Bugs

@@ -1,20 +1,23 @@
-name: Acceptance
-description: Abnahme der User Story durch Selbsttest oder Review
+---
+name: Acceptance – Abnahme
+about: Die Story wurde vollständig getestet und angenommen
 title: "✅ [ACCEPTANCE] - "
-labels: ["type: acceptance", "type: user story"]
+labels: ["type: acceptance"]
+assignees: []
+---
 
-body:
-- type: input
-  id: story
-  attributes:
-  label: Zugehörige User Story
-  placeholder: z. B. #12
-- type: textarea
-  id: criteria
-  attributes:
-  label: Erfüllte Akzeptanzkriterien
-- type: textarea
-  id: test
-  attributes:
-  label: Funktionstest oder Live-Test
-  description: Wie wurde die Abnahme durchgeführt?
+## 🧩 Zugehörige User Story
+
+z. B. #14
+
+---
+
+## 🧪 Akzeptanztests
+
+- [ ] ...
+
+---
+
+## 🔄 Verhalten überprüft?
+
+Kurze Beschreibung, wie die Abnahme durchgeführt wurde (z. B. UI getestet, API Response geprüft)

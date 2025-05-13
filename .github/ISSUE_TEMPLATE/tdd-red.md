@@ -1,21 +1,23 @@
-name: Red Test
-description: TDD – Ein neuer fehlschlagender Test
+---
+name: RED – Test schreiben
+about: Ein neuer fehlschlagender Testfall wird angelegt
 title: "🧪 [RED] - "
 labels: ["tdd: red", "type: test"]
+assignees: []
+---
 
-body:
-- type: input
-  id: test-name
-  attributes:
-  label: Testfall
-  placeholder: "Ein Spieler ohne Club darf nicht gespeichert werden"
-- type: textarea
-  id: scenario
-  attributes:
-  label: Test-Szenario
-  description: Was genau wird getestet?
-- type: textarea
-  id: location
-  attributes:
-  label: Wo soll der Test hin?
-  placeholder: z. B. PlayerServiceTest.java
+## 🧪 Testfall
+
+Beschreibe hier den Test, der als Erstes geschrieben wird und fehlschlagen soll.
+
+---
+
+## 📂 Ort im Code
+
+z. B. `PlayerServiceTest.java`
+
+---
+
+## 🔁 Erwartetes Verhalten
+
+Was soll dieser Test absichern? Welche Logik wird erwartet?
